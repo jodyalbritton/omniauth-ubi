@@ -18,7 +18,7 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class SmartThings < OmniAuth::Strategies::OAuth2
+    class Ubi < OmniAuth::Strategies::OAuth2
       option :client_options, {
         :site => 'https://portal.theubi.com',
         :authorize_url => '/oauth/authorize',
