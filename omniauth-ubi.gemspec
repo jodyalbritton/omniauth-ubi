@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n")
   gem.name          = 'omniauth-ubi'
   gem.require_paths = ['lib']
-  gem.version       = OmniAuth::SmartThings::VERSION
+  gem.version       = OmniAuth::Ubi::VERSION
   gem.add_dependency 'omniauth', '~> 1.0'
   gem.add_dependency 'omniauth-oauth2', '~> 1.1'
 end
